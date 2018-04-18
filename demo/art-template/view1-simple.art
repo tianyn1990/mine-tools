@@ -1,0 +1,27 @@
+输出：
+hi, {{name}}
+
+原文输出：
+hi, {{@ name}}
+
+变量：
+{{set bool2 = !bool}}
+
+if语法：
+{{if bool}}
+    bool
+{{else if bool2}}
+    bool2
+{{/if}}
+
+循环：
+{{each list}}
+    {{$value.name}}, {{$index}}
+{{/each}}
+循环2：
+{{each list val idx}}
+    {{val.name}}, {{idx}}
+{{/each}}
+
+过滤器：
+{{timeMills | timestamp | dateFormat:'local'}}
