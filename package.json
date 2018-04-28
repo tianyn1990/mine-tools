@@ -5,6 +5,6 @@
     "author": "tianyn1990",
     "dependencies": {
         "art-template": "^4.12.2",
-        "regular-redux-util": "^1.0.13"
+        "regular-redux-util": "^1.0.14"
     }
 }
